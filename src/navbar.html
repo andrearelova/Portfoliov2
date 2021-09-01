@@ -1,0 +1,48 @@
+<div class="navBar">
+  <a href="index.html">
+    <img src="img/Logo.png" alt="Andrea Relova Logo" class="logo"/>
+  </a>
+
+  <div class="tabs">
+    <a href="index.html#Work" class="navBarLink">
+      <h6 class="navBarSxn">WORK</h6>
+    </a>
+
+    <a href="index.html#About" class="navBarLink">
+      <h6 class="navBarSxn">ABOUT</h6>
+    </a>
+
+    <a href="index.html#FindMe" class="navBarLink">
+      <h6 class="navBarSxn">FIND ME</h6>
+    </a>
+
+    <a href="index.html#ContactMe" class="navBarLink">
+      <h6 class="navBarSxn">CONTACT ME</h6>
+    </a>
+
+    <div class="Hamburger">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div id="MobileLinks">
+  <a href="index.html">HOME</a>
+  <a href="index.html#Work">WORK</a>
+  <a href="index.html#About">ABOUT</a>
+  <a href="index.html#FindMe">FIND ME</a>
+  <a href="index.html#ContactMe">CONTACT ME</a>
+</div>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("MobileLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
