@@ -509,7 +509,7 @@ a {
 
 .boxGif {
   width: 100%;
-  height: auto;
+  height: 300px;
 }
 
 .boxCaption {
@@ -559,7 +559,6 @@ a {
 }
 
 .box p {
-  line-height: normal;
   font-size: 18px;
 }
 
@@ -569,9 +568,46 @@ a {
   margin-right: 10px;
 }
 
+.text {
+  width: 48%;
+  margin-left: 2%;
+}
+
+.text p, h4 {
+  margin: 0;
+}
+
+.subheading {
+  width: 48%;
+  margin-right: 2%;
+}
+
+.subheading h3 {
+  margin: 0;
+}
+
+.purple {
+  color: #7468C2;
+  weight: 500;
+}
+
+.marginBottom {
+  margin-bottom: 2%;
+}
+
 @media screen and (max-width: 800px) {
   .flex-row {
     flex-direction: column;
+  }
+
+  .text {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .subheading {
+    width: 100%;
+    margin-right: 0;
   }
 
   .box {
@@ -579,6 +615,14 @@ a {
     height: auto;
     margin-right: 0;
     margin-bottom: 5%;
+  }
+
+  .boxGif {
+    height: auto;
+  }
+
+  .box p {
+    line-height: normal;
   }
 
   .internshipText {
