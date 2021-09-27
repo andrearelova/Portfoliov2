@@ -613,6 +613,10 @@ a {
   margin-bottom: 2%;
 }
 
+.skill p {
+  margin: 0;
+}
+
 @media screen and (max-width: 800px) {
   .flex-row {
     flex-direction: column;
@@ -699,4 +703,74 @@ a {
     margin-bottom: 1%;
     margin-top: 1%;
   }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2%;
+  text-align: left;
+}
+
+.formBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.label {
+  margin: 1%;
+}
+
+.splitRow {
+  width: 48%;
+  margin-right: 2%;
+}
+
+.splitRow2 {
+  width: 48%;
+  margin-left: 2%;
+}
+
+input, textarea {
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  background-color: #FFFFFF99;
+  height: 2.5rem;
+  padding: 2%;
+  font-family: 'Inter', sans-serif;
+  color: #47454D;
+
+}
+
+textarea {
+  width: 98%;
+  height: 5rem;
+}
+
+.fade {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+.align {
+  align-self: center;
+}
+
+@media screen and (max-width: 800px) {
+  .splitRow, .splitRow2{
+    margin: 0;
+    width: 98%;
+  }
+}
+
+/*footer*/
+.footer {
+  text-align: center;
 }
