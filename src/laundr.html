@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Andrea Relova</title>
+  </head>
+  <body>
+    <div id="navbar-placeholder"></div>
+    <script>
+      $.get("navbar.html", function(data){
+        $("#navbar-placeholder").replaceWith(data);
+      });
+    </script>
+
+    <div class="content secondPages">
+      <h1 class="introName">LAUNDR E-COMMERCE</h1>
+      <p class="introText">During my internship at Quantum Interface, I created a website for Summits4Sight, a non-profit organization that aims to bring awareness to Age-related Macular Degeneration (AMD) through the founder’s mountain treks around the world.During my Introduction to Software Engineering class in Fall 2020, a team of three others and I created an web application for the startup laundry company, Laundr (based in Gainesville, Florida). Laundr recently created a new line of laundry products called “Laundr Bombs” and we were tasked to create a prototype of the e-commerce website to sell this line of products, while using Agile methodology.</p>
+      <div class="flex-row wrap">
+        <div class="category" style="margin-left: 0">
+          <h5>TIMELINE</h5>
+          <p>Semester-long Group Project</p>
+        </div>
+        <div class="category">
+          <h5>ROLE</h5>
+          <p>Ideation, Visual Design and Wireframes, Front-End Development</p>
+        </div>
+        <div class="category">
+          <h5>TYPE</h5>
+          <p>React Web Application with Firebase backend</p>
+        </div>
+        <div class="category">
+          <h5>DELIVERABLES</h5>
+          <p>Adobe XD High-Fidelity Wireframes; React Web Application</p>
+        </div>
+      </div>
+
+      <a href="https://github.com/morabrandoi/Laundr-Megabite" target="_blank">
+        <button>GITHUB</button>
+      </a>
+
+      <div class="line">
+      </div>
+
+      <div class="work secondPages">
+        <h5 class="subtitle">THE BACKGROUND</h5>
+        <p>The representative from Laundr gave us little requirements for the e-commerce and the backend, but he had a specific vision for the front end: he wanted a UI and landing page similar to <a href="https://simplychocolate.dk/" target="_blank"><span class="purple" style="text-decoration: underline;">this chocolate e-commerce website.</span></a> This project was the majority of my team’s first web development projects ever, so in some ways, we had to sacrifice some elements of the chocolate website to be easier for us to complete. The website would then serve as a prototype/early production version for Laundr.</p>
+
+        <h5 class="subtitle">THE DESIGN</h5>
+        <p>The font pairing and the color selection for both the website and for the individual products were predetermined by Laundr. The representative from the company also specified that he wanted the landing page to be like the aforementioned chocolate website, where the user can swipe through the different products.</p>
+        <h6>HIGH-FIDELITY WIREFRAMES</h6>
+        <img src="img/LaundrHome.png" alt="Home page" class="image"/>
+        <p>The landing page. Orignally, the idea was to have each stripe serve as a “tab” that the user could scroll through to get a better look at the products.</p>
+        <img src="img/Laundr2.png" alt="Home page with a tab open" class="image"/>
+        <p>The landing page with one of the tabs open.</p>
+        <img src="img/Laundr3.png" alt="Home page" class="image"/>
+        <p>Example of a product page. The representative specified that he wanted the product bag to look like the “Laundr Bombs” were rolling out.</p>
+        <img src="img/Laundr4.png" alt="Home page" class="image"/>
+        <p>The “Shop All” Page.</p>
+        <img src="img/Laundr5.png" alt="Home page" class="image"/>
+        <p>The “Shop All” page scrolled all the way down.</p>
+        <img src="img/Laundr6.png" alt="Home page" class="image"/>
+        <p>The checkout page.</p>
+        <img src="img/Laundr7.png" alt="Home page" class="image"/>
+        <p>The order confirmation page.</p>
+
+        <h5 class="subtitle">THE DEVELOPMENT</h5>
+        <a href="https://github.com/morabrandoi/Laundr-Megabite" target="_blank">
+          <button>GITHUB</button>
+        </a>
+        <p>View the React Web App on GitHub here.</p>
+      </div>
+    </div>
+
+    <div id="footer-placeholder"></div>
+    <script>
+      $.get("footer.html", function(data){
+        $("#footer-placeholder").replaceWith(data);
+      });
+    </script>
+  </body>
+</html>

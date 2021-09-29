@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Andrea Relova</title>
+  </head>
+  <body>
+    <div id="navbar-placeholder"></div>
+    <script>
+      $.get("navbar.html", function(data){
+        $("#navbar-placeholder").replaceWith(data);
+      });
+    </script>
+
+    <div class="content secondPages">
+      <h1 class="introName">LPRC ZONE 4</h1>
+      <p class="introText">During my User Experience Design class in Fall 2020, a team of three others and I partnered up with UF’s Loss Prevention Research Council, a research group that aims to find solutions for large national retail companies. We were tasked to determine what users’ needs in a Zone 4 of a retail space are. A Zone 4 is the area outside up until the entrances of a store front, so walkways and the parking lot. From this information we designed a curbside pickup app.</p>
+      <div class="flex-row wrap">
+        <div class="category" style="margin-left: 0">
+          <h5>TIMELINE</h5>
+          <p>Semester-long Group Project</p>
+        </div>
+        <div class="category">
+          <h5>ROLE</h5>
+          <p>Ideation, Visual Design and Wireframes, User Research</p>
+        </div>
+        <div class="category">
+          <h5>TYPE</h5>
+          <p>Design and Research Challenge</p>
+        </div>
+        <div class="category">
+          <h5>DELIVERABLES</h5>
+          <p>Figma Wireframes, Invision Prototype, Research Poster</p>
+        </div>
+      </div>
+
+      <div class="line">
+      </div>
+
+      <img src="img/lprc.png" class="image" alt="Research poster" style="margin-top: 3%;"/>
+    </div>
+
+    <div id="footer-placeholder"></div>
+    <script>
+      $.get("footer.html", function(data){
+        $("#footer-placeholder").replaceWith(data);
+      });
+    </script>
+  </body>
+</html>
