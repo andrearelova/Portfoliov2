@@ -4,7 +4,7 @@
   "description": "Andrea Relova's Portfolio",
   "main": "src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": ""
   },
   "author": "Andrea Relova",
   "license": "ISC",
