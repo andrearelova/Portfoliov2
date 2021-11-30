@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Andrea Relova</title>
+  </head>
+  <body>
+    <div id="navbar-placeholder"></div>
+    <script>
+      $.get("navbar.html", function(data){
+        $("#navbar-placeholder").replaceWith(data);
+      });
+    </script>
+
+    <div class="content">
+      <h1 class="introName">CASE STUDY: TELEHEALTH</h1>
+      <p class="introText">A project for an internship interview where I was tasked to make five high-fidelity wireframes that show a telehealth interface from the POV of both the patient and the doctor.</p>
+
+      <div class="flex-row wrap">
+        <div class="category" style="margin-left: 0">
+          <h5>TIMELINE</h5>
+          <p>10 - hour project</p>
+        </div>
+        <div class="category">
+          <h5>ROLE</h5>
+          <p>Ideation, Visual Design and Wireframes</p>
+        </div>
+        <div class="category">
+          <h5>TYPE</h5>
+          <p>High-fidelity Wireframes</p>
+        </div>
+        <div class="category">
+          <h5>DELIVERABLES</h5>
+          <p>Figma High-Fidelity Wireframes</p>
+        </div>
+      </div>
+
+      <div class="line" style="margin-top: 5%; margin-bottom: 5%;">
+      </div>
+
+      <div>
+        <div class="collection">
+          <h3 style="margin: 0; text-align: left">Patient Dashboard</h3>
+          <br><br>
+          <a href="img/dashboard.png" target="_blank" alt="Patient's dashboard">
+            <img src="img/dashboard.png" alt="Patient dashboard" class="image imgUxd"/>
+          </a>
+          <br><br>
+          <h3 style="margin: 0; text-align: left">Patient Video Appointment</h3>
+          <br><br>
+          <a href="img/patientvideo.png" target="_blank" alt="Patient's video">
+            <img src="img/patientvideo.png" alt="Patient dashboard" class="image imgUxd"/>
+          </a>
+          <br><br>
+          <h3 style="margin: 0; text-align: left">Patient Post-Visit Summary</h3>
+          <br><br>
+          <a href="img/postvisit.png" target="_blank" alt="Post-visit summary">
+            <img src="img/postvisit.png" alt="Patient dashboard" class="image imgUxd"/>
+          </a>
+          <br><br>
+          <h3 style="margin: 0; text-align: left">Doctor Video Appointment</h3>
+          <br><br>
+          <a href="img/doctor1.png" target="_blank" alt="Doctor's video pt 1">
+            <img src="img/doctor1.png" alt="Patient dashboard" class="image imgUxd"/>
+          </a>
+          <br><br>
+          <h3 style="margin: 0; text-align: left">Doctor Video Appointment Pt.2</h3>
+          <br><br>
+          <a href="img/doctor2.png" target="_blank" alt="Doctor's video pt 2">
+            <img src="img/doctor2.png" alt="Patient dashboard" class="image imgUxd"/>
+          </a>
+          <br><br>
+
+        </div>
+      </div>
+    </div>
+    <div id="footer-placeholder"></div>
+    <script>
+      $.get("footer.html", function(data){
+        $("#footer-placeholder").replaceWith(data);
+      });
+    </script>
+  </body>
+</html>
